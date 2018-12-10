@@ -1,0 +1,128 @@
+Script started on 2018-10-13 11:53:21+0700
+]0;hoang@dev: ~/contiki-ng/examples/rpl-border-router[01;32mhoang@dev[00m:[01;34m~/contiki-ng/examples/rpl-border-router[00m$ pu[King6 fd00::212:4b00:5a9:8f0f[1Pf1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+6 packets transmitted, 0 received, 100% packet loss, time 5112ms
+
+]0;hoang@dev: ~/contiki-ng/examples/rpl-border-router[01;32mhoang@dev[00m:[01;34m~/contiki-ng/examples/rpl-border-router[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+179 packets transmitted, 0 received, 100% packet loss, time 182251ms
+
+]0;hoang@dev: ~/contiki-ng/examples/rpl-border-router[01;32mhoang@dev[00m:[01;34m~/contiki-ng/examples/rpl-border-router[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+599 packets transmitted, 0 received, 100% packet loss, time 612320ms
+
+]0;hoang@dev: ~/contiki-ng/examples/rpl-border-router[01;32mhoang@dev[00m:[01;34m~/contiki-ng/examples/rpl-border-router[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2020ms
+
+]0;hoang@dev: ~/contiki-ng/examples/rpl-border-router[01;32mhoang@dev[00m:[01;34m~/contiki-ng/examples/rpl-border-router[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+11 packets transmitted, 0 received, 100% packet loss, time 10217ms
+
+]0;hoang@dev: ~/contiki-ng/examples/rpl-border-router[01;32mhoang@dev[00m:[01;34m~/contiki-ng/examples/rpl-border-router[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+6 packets transmitted, 0 received, 100% packet loss, time 5082ms
+
+]0;hoang@dev: ~/contiki-ng/examples/rpl-border-router[01;32mhoang@dev[00m:[01;34m~/contiki-ng/examples/rpl-border-router[00m$ cd
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ cdping6 fd00::212:4b00:5a9:8f1f[C[C[C[C[C[C[C[C[C[C[C[C[Csudo make TARGET=cc2538dk connect-router[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pping6 fd00::212:4b00:5a9:8f1f[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K[Kscript -f 8f1f.txt
+Script started, file is 8f1f.txt
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd[K[Kfd00::212:4b00:5a9:8f0f[1Pf1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1001ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+152 packets transmitted, 0 received, 100% packet loss, time 154617ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+100 packets transmitted, 0 received, 100% packet loss, time 101321ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+130 packets transmitted, 0 received, 100% packet loss, time 132044ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^[[A
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+19 packets transmitted, 0 received, 100% packet loss, time 18380ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+66 packets transmitted, 0 received, 100% packet loss, time 66549ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^[[A
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+541 packets transmitted, 0 received, 100% packet loss, time 552925ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+14 packets transmitted, 0 received, 100% packet loss, time 13306ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2044ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^[[A
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+31 packets transmitted, 0 received, 100% packet loss, time 30677ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+346 packets transmitted, 0 received, 100% packet loss, time 353236ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+7 packets transmitted, 0 received, 100% packet loss, time 6132ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+48 packets transmitted, 0 received, 100% packet loss, time 48108ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ ping6 fd00::212:4b00:5a9:8f1f
+PING fd00::212:4b00:5a9:8f1f(fd00::212:4b00:5a9:8f1f) 56 data bytes
+^C
+--- fd00::212:4b00:5a9:8f1f ping statistics ---
+13 packets transmitted, 0 received, 100% packet loss, time 12275ms
+
+]0;hoang@dev: ~[01;32mhoang@dev[00m:[01;34m~[00m$ 
